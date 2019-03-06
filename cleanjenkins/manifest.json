@@ -1,0 +1,17 @@
+{	
+ "manifest_version": 2,
+ "name": "HidePipelineLogs",
+ "description": "it will hide the pipeline logs on jenkins",
+ "version": "1",
+ "author": "Ajay Kumar",
+
+"browser_action": {
+   "default_icon": "tab-icon.png",
+   "default_title": "Remove the clutter"
+ },
+ "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+ "permissions": ["activeTab"]
+}
